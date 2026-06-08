@@ -1,0 +1,9 @@
+[project]
+name = "molmospaces-policy-zoo"
+version = "0.1.0"
+description = "Policy zoo for MolmoSpaces"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "molmo-spaces[mujoco] @ git+https://github.com/allenai/molmospaces.git@b4ed488c4e8cfb9a4abff177a21787ddc22f922c",
+]
